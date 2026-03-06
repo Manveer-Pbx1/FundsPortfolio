@@ -1,5 +1,7 @@
 # FundsPortfolio
 
+[![CI/CD](https://github.com/LowFatMatt/FundsPortfolio/actions/workflows/ci-cd.yml/badge.svg?branch=main)](https://github.com/LowFatMatt/FundsPortfolio/actions)
+
 ## What this Software does
 
 This Software is a portfolio manager for funds. That is, it can thake anything that has an ISIN and create an initial Database of the list of funds. The user is then asked a few questions about the financial situation he is in and how risk averse oder riskinclined he is when it comes to investments. The user can then choose his personal portfolio out of the Database and the Software will calculate the best possible portfolio for him by filtering the Database based on the users answers. Portfolios get a unique ID that is sorted by the date of creation but otherwise not human readable.
