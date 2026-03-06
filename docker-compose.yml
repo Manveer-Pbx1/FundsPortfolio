@@ -20,13 +20,13 @@ services:
     
     volumes:
       # Development: mount source code for live reload
-      - ./funds_portfolio:/app/funds_portfolio
-      - ./config:/app/config
-      - ./templates:/app/templates
+      - ${PWD}/funds_portfolio:/app/funds_portfolio
+      - ${PWD}/config:/app/config
+      - ${PWD}/templates:/app/templates
       
       # Data directories
-      - ./portfolios:/app/portfolios
-      - ./logs:/app/logs
+      - ${PWD}/portfolios:/app/portfolios
+      - ${PWD}/logs:/app/logs
       
       # Config files
       - ./funds_database.json:/app/funds_database.json:ro

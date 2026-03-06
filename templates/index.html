@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FundsPortfolio - Investment Recommendation Engine</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 900px; margin: 0 auto; padding: 20px; }
+        header { background: #1e3a8a; color: white; padding: 40px 0; text-align: center; margin-bottom: 40px; }
+        h1 { font-size: 2.5em; margin-bottom: 10px; }
+        .subtitle { font-size: 1.1em; opacity: 0.9; }
+        .status { background: #10b981; color: white; padding: 15px; border-radius: 5px; margin: 20px 0; }
+        .phase { background: #f3f4f6; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #3b82f6; }
+        .phase h3 { color: #1e3a8a; margin-bottom: 10px; }
+        .api-list { background: #f9fafb; padding: 20px; border-radius: 5px; margin: 20px 0; }
+        .api-list h4 { margin: 15px 0 10px 0; color: #1e3a8a; }
+        .endpoint { font-family: monospace; background: #e5e7eb; padding: 10px; border-radius: 3px; margin: 5px 0; }
+        footer { text-align: center; margin-top: 40px; padding: 20px; border-top: 1px solid #e5e7eb; color: #6b7280; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FundsPortfolio</h1>
+        <p class="subtitle">Smart Investment Portfolio Recommendations</p>
+    </header>
+
+    <div class="container">
+        <div class="status">
+            ✅ API is running and healthy
+        </div>
+
+        <div class="phase">
+            <h3>📌 Current Status: Phase 1 (Foundation)</h3>
+            <p>The API skeleton is ready. Building Flask endpoints and data layer next.</p>
+        </div>
+
+        <div class="api-list">
+            <h4>📡 Available Endpoints</h4>
+            <div class="endpoint">GET /health</div>
+            <p style="margin: 10px 0; font-size: 0.9em;">Health check endpoint</p>
+            
+            <div class="endpoint">GET /api/questionnaire</div>
+            <p style="margin: 10px 0; font-size: 0.9em;">Load investment preference questionnaire (Phase 4)</p>
+            
+            <div class="endpoint">POST /api/portfolio</div>
+            <p style="margin: 10px 0; font-size: 0.9em;">Create new portfolio recommendation (Phase 4)</p>
+            
+            <div class="endpoint">GET /api/portfolio/{portfolio_id}</div>
+            <p style="margin: 10px 0; font-size: 0.9em;">Retrieve portfolio by ID (Phase 4)</p>
+            
+            <div class="endpoint">GET /api/funds</div>
+            <p style="margin: 10px 0; font-size: 0.9em;">List available funds (Phase 4)</p>
+        </div>
+
+        <div class="phase">
+            <h3>🎯 Next Steps (Weeks 1-2)</h3>
+            <ul style="margin-left: 20px;">
+                <li>Implement JSON loaders (fund_manager.py)</li>
+                <li>Build questionnaire validator (questionnaire/loader.py)</li>
+                <li>Create portfolio data model (models/portfolio.py)</li>
+                <li>Write unit tests</li>
+                <li>Validate with docker-compose</li>
+            </ul>
+        </div>
+
+        <div class="phase">
+            <h3>📚 Documentation</h3>
+            <p>See the project documentation:</p>
+            <ul style="margin-left: 20px;">
+                <li><a href="#">MVP_README.md</a> - Quick start guide</li>
+                <li><a href="#">IMPLEMENTATION_SPEC.md</a> - Technical architecture</li>
+                <li><a href="#">DEVOPS_GUIDE.md</a> - Docker & GitHub Actions</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>FundsPortfolio MVP v0.1.0 | Phase 1: Foundation</p>
+        <p style="font-size: 0.9em; margin-top: 10px;">Last updated: 6. März 2026</p>
+    </footer>
+</body>
+</html>

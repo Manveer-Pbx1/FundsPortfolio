@@ -27,7 +27,7 @@ git clone https://github.com/LowFatMatt/FundsPortfolio.git
 cd FundsPortfolio
 
 # Start services
-docker-compose up --build
+docker compose up --build # I seen to have the CE Version of docker
 
 # Test API
 curl http://localhost:5000/health
@@ -340,6 +340,14 @@ mkdir -p portfolios
 # docker-compose will create it, but you can pre-create
 ```
 
+### Template not found or empty reply
+If the homepage returns an empty reply or you see `TemplateNotFound` errors in the logs, the container may be running without the `templates/` directory mounted. The app now falls back to a minimal HTML page, but to restore the full UI
+```bash
+# make sure you start compose from project root
+cd /home/mrick/projects
+# rebuild so image includes templates
+docker compose up --build
+```
 ### KIID retrieval returns 0 results
 ```bash
 # Check network connectivity
