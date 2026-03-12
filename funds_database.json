@@ -46,7 +46,7 @@
         "corporate_bonds"
       ],
       "risk_level": 2,
-      "yearly_fee": 0.20
+      "yearly_fee": 0.2
     },
     {
       "isin": "IE00B5BMR087",
@@ -79,12 +79,3349 @@
       ],
       "risk_level": 4,
       "yearly_fee": 0.07
+    },
+    {
+      "isin": "LU1211621138",
+      "name": "Deka-EuropaGarant 80A",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "mixed",
+      "region": "global",
+      "categories": [
+        "capital_protection"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU1211644858",
+      "name": "Deka-GlobalStrategie Garant 80KR",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "mixed",
+      "region": "global",
+      "categories": [
+        "capital_protection"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "FR0014011E94",
+      "name": "WorldGuard 80 Portfolio Fund",
+      "provider": "WorldGuard 80",
+      "kiid_url": null,
+      "asset_class": "mixed",
+      "region": "global",
+      "categories": [
+        "capital_protection"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU2224496260",
+      "name": "Deka-EuropaGarant 90",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "mixed",
+      "region": "global",
+      "categories": [
+        "capital_protection"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "FR0014011N36",
+      "name": "WorldGuard 90 Portfolio Fund",
+      "provider": "WorldGuard 90",
+      "kiid_url": null,
+      "asset_class": "mixed",
+      "region": "global",
+      "categories": [
+        "capital_protection"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU1883318740",
+      "name": "Amundi Funds Global Equity Responsible A EUR C",
+      "provider": "Amundi",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "global_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "FR0010148981",
+      "name": "Carmignac Investissement",
+      "provider": "Carmignac",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "global_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU1854166821",
+      "name": "CT (Lux) Global Smaller Companies AEP",
+      "provider": "CT (Lux)",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "global_equity"
+      ],
+      "risk_level": 5,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE000DK2CDS0",
+      "name": "Deka-DividendenStrategie CF (A)",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "global_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0703710904",
+      "name": "Deka-ESG Aktien CF (A)",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "global_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE000DK0V521",
+      "name": "Deka-ESG DividendenStrategie CF",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "global_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE000DK0V554",
+      "name": "Deka-ESG Global Champions CF",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "global_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE000DK0ECU8",
+      "name": "Deka-Global Champions CF",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "global_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0851806900",
+      "name": "Deka-Globale Aktien LowRisk CF (A)",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "global_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0350093026",
+      "name": "Deka-GlobalSelect CF",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "global_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU2109588199",
+      "name": "Deka-Impact Aktien CF",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "global_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU1508359509",
+      "name": "Deka-Industrie 4.0 CF",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "global_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE0005152706",
+      "name": "Deka-MegaTrends CF",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "global_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE000DK0ECS2",
+      "name": "Deka-UmweltInvest CF",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "global_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0061928585",
+      "name": "Ökoworld Ökovision Classic C",
+      "provider": "Ökoworld",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "global_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": true,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE000A403EK7",
+      "name": "Provinzial Aktien Welt",
+      "provider": "Provinzial",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "global_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0136171559",
+      "name": "Swisscanto (LU) Equity Sustainable AT",
+      "provider": "Swisscanto",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "global_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": true,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0114760746",
+      "name": "Templeton Growth (Euro) Fund A (acc) EUR",
+      "provider": "Templeton",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "global_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE0008474511",
+      "name": "AriDeka",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU1864952335",
+      "name": "CT (Lux) European Smaller Companies",
+      "provider": "CT (Lux)",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU2339785821",
+      "name": "Deka-ESG Aktien Europa CF",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU1876154029",
+      "name": "Deka-UnternehmerStrategie Europa CF",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0089640097",
+      "name": "JPM Euroland Equity A (dist) - EUR",
+      "provider": "JPM Euroland",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "eurozone",
+      "categories": [
+        "eurozone_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE0008474503",
+      "name": "DekaFonds CF",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "germany",
+      "categories": [
+        "german_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0052859252",
+      "name": "DekaLuxTeam-Aktien Asien",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "asia",
+      "categories": [
+        "asian_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0229939763",
+      "name": "Templeton Asian Growth Fund-A (Ydis) EUR",
+      "provider": "Templeton",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "asia",
+      "categories": [
+        "asian_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0800346016",
+      "name": "Ökoworld Growing Markets 2.0 C",
+      "provider": "Ökoworld",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "emerging_markets",
+      "categories": [
+        "emerging_markets"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": true,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0171305526",
+      "name": "BGF World Gold  Fund Class A2 EUR",
+      "provider": "BGF",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "emerging_markets",
+      "categories": [
+        "emerging_markets"
+      ],
+      "risk_level": 5,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0172157280",
+      "name": "BGF World Mining Fund A2 EUR",
+      "provider": "BGF",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "thematic_equity"
+      ],
+      "risk_level": 5,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0348413229",
+      "name": "Deka-ESG Gesundheit CF",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "thematic_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU2339791803",
+      "name": "Deka-Künstliche Intelligenz CF",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "thematic_equity"
+      ],
+      "risk_level": 5,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU2941481082",
+      "name": "Deka-Security and Defense CF",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "thematic_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0099574567",
+      "name": "Fidelity Funds - Global Technology Fund A",
+      "provider": "Fidelity",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "thematic_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "IE00BKPSDK98",
+      "name": "KBI Global Sustainable Infrastructure Fund F EUR",
+      "provider": "KBI Global",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "thematic_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE000A0KEYM4",
+      "name": "LBBW Global Warming",
+      "provider": "LBBW Global",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "thematic_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0104884860",
+      "name": "Pictet-Water-P",
+      "provider": "Pictet",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "thematic_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": true,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE000A0RHHC8",
+      "name": "TBF Smart Power EUR R",
+      "provider": "TBF Smart",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "thematic_equity"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0703711035",
+      "name": "Deka-ESG Renten CF(A)",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "bond",
+      "region": "global",
+      "categories": [
+        "global_bonds"
+      ],
+      "risk_level": 2,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE0008474560",
+      "name": "DekaRent-international CF",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "bond",
+      "region": "global",
+      "categories": [
+        "global_bonds"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU1481583711",
+      "name": "Flossbach von Storch Bond Opportunities RT",
+      "provider": "Flossbach",
+      "kiid_url": null,
+      "asset_class": "bond",
+      "region": "global",
+      "categories": [
+        "global_bonds"
+      ],
+      "risk_level": 2,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0152980495",
+      "name": "Templeton Global Bond Fund",
+      "provider": "Templeton",
+      "kiid_url": null,
+      "asset_class": "bond",
+      "region": "global",
+      "categories": [
+        "global_bonds"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE000A1CXYM9",
+      "name": "WeltZins-Invest",
+      "provider": "WeltZins-Invest",
+      "kiid_url": null,
+      "asset_class": "bond",
+      "region": "global",
+      "categories": [
+        "global_bonds"
+      ],
+      "risk_level": 2,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0107368036",
+      "name": "Deka-ESG BasisStrategie Renten",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "bond",
+      "region": "europe",
+      "categories": [
+        "european_bonds"
+      ],
+      "risk_level": 2,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0011194601",
+      "name": "DekaLux-Bond A",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "bond",
+      "region": "europe",
+      "categories": [
+        "european_bonds"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE0008474750",
+      "name": "DekaTresor",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "bond",
+      "region": "europe",
+      "categories": [
+        "european_bonds"
+      ],
+      "risk_level": 2,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0027797579",
+      "name": "Deka-Flex: Euro C",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "bond",
+      "region": "europe",
+      "categories": [
+        "money_market"
+      ],
+      "risk_level": 2,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0249486092",
+      "name": "Deka-FlexZins CF",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "bond",
+      "region": "europe",
+      "categories": [
+        "money_market"
+      ],
+      "risk_level": 2,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE000A0X7541",
+      "name": "Acatis Value Event Funds",
+      "provider": "Acatis",
+      "kiid_url": null,
+      "asset_class": "mixed",
+      "region": "global",
+      "categories": [
+        "balanced"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0360863863",
+      "name": "ARERO-Der Weltfonds",
+      "provider": "ARERO-Der Weltfonds",
+      "kiid_url": null,
+      "asset_class": "mixed",
+      "region": "global",
+      "categories": [
+        "balanced"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "FR0010135103",
+      "name": "Carmignac Patrimoine A EUR acc",
+      "provider": "Carmignac",
+      "kiid_url": null,
+      "asset_class": "mixed",
+      "region": "global",
+      "categories": [
+        "balanced"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0592698954",
+      "name": "Carmignac Portfolio Emerging Patrimoine",
+      "provider": "Carmignac",
+      "kiid_url": null,
+      "asset_class": "mixed",
+      "region": "global",
+      "categories": [
+        "balanced"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE000DK2EAR4",
+      "name": "Deka-BasisStrategie Flexibel CF",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "mixed",
+      "region": "global",
+      "categories": [
+        "balanced"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0703711118",
+      "name": "Deka-ESG Balance CF(A)",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "mixed",
+      "region": "global",
+      "categories": [
+        "balanced"
+      ],
+      "risk_level": 2,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE0005896872",
+      "name": "Deka-Europa Balance CF",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "mixed",
+      "region": "global",
+      "categories": [
+        "balanced"
+      ],
+      "risk_level": 2,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE000DK2J8N2",
+      "name": "Deka-Global Balance CF",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "mixed",
+      "region": "global",
+      "categories": [
+        "balanced"
+      ],
+      "risk_level": 2,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE000DK2J662",
+      "name": "Deka-Multi Asset Income CF(A)",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "mixed",
+      "region": "global",
+      "categories": [
+        "balanced"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE000DK0V6U7",
+      "name": "Deka-Perspektive Dynamisch CF",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "mixed",
+      "region": "global",
+      "categories": [
+        "balanced"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0431139764",
+      "name": "Ethna-AKTIV-T",
+      "provider": "Ethna",
+      "kiid_url": null,
+      "asset_class": "mixed",
+      "region": "global",
+      "categories": [
+        "balanced"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0323578145",
+      "name": "Flossbach von Storch-MultiAsset-Balanced",
+      "provider": "Flossbach",
+      "kiid_url": null,
+      "asset_class": "mixed",
+      "region": "global",
+      "categories": [
+        "balanced"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0323578491",
+      "name": "Flossbach von Storch-MultiAsset-Growth",
+      "provider": "Flossbach",
+      "kiid_url": null,
+      "asset_class": "mixed",
+      "region": "global",
+      "categories": [
+        "balanced"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0323578657",
+      "name": "Flossbach von Storch - Multiple Opportunities",
+      "provider": "Flossbach",
+      "kiid_url": null,
+      "asset_class": "mixed",
+      "region": "global",
+      "categories": [
+        "balanced"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU2531392699",
+      "name": "SK UnnaKamen Impact Invest",
+      "provider": "SK",
+      "kiid_url": null,
+      "asset_class": "mixed",
+      "region": "global",
+      "categories": [
+        "balanced"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "LU0208341965",
+      "name": "Swisscanto LU Portfolio Sustainable Balanced",
+      "provider": "Swisscanto",
+      "kiid_url": null,
+      "asset_class": "mixed",
+      "region": "global",
+      "categories": [
+        "balanced"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": true,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE000DK2CFT3",
+      "name": "Deka-BasisAnlage offensiv",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "mixed",
+      "region": "global",
+      "categories": [
+        "multi_asset"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": true,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE000DK0LMG1",
+      "name": "Deka-GenerationenPortfolio",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "mixed",
+      "region": "global",
+      "categories": [
+        "multi_asset"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE000DK2J8Q5",
+      "name": "Deka-Multimanager ausgewogen CF",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "mixed",
+      "region": "global",
+      "categories": [
+        "multi_asset"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE000DK1CJP5",
+      "name": "DekaStruktur: 5 Chance",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "mixed",
+      "region": "global",
+      "categories": [
+        "multi_asset"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE000DK1CJQ3",
+      "name": "DekaStruktur: 5 ChancePlus",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "mixed",
+      "region": "global",
+      "categories": [
+        "multi_asset"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE000DK1CJM2",
+      "name": "DekaStruktur: 5 ErtragPlus",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "mixed",
+      "region": "global",
+      "categories": [
+        "multi_asset"
+      ],
+      "risk_level": 2,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE000DK1CJN0",
+      "name": "DekaStruktur: 5 Wachstum",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "mixed",
+      "region": "global",
+      "categories": [
+        "multi_asset"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE000ETFL011",
+      "name": "Deka DAX UCITS ETF",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "etf"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE000ETFL029",
+      "name": "Deka EURO STOXX 50 UCITS ETF",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "etf"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE000ETFL375",
+      "name": "Deka iBoxx EUR Liquid Corporates Diversified",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "etf"
+      ],
+      "risk_level": 2,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE000ETFL565",
+      "name": "Deka MSCI Europe Climate Change ESG UCITS",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "etf"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": true,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE000ETFL508",
+      "name": "Deka MSCI World UCITS ETF",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "etf"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "DE000ETFL581",
+      "name": "Deka MSCI World Climate Change ESG UCITS",
+      "provider": "Deka",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "etf"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": true,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "IE00B4L5YC18",
+      "name": "iShares MSCI EM UCITS ETF",
+      "provider": "iShares",
+      "kiid_url": null,
+      "asset_class": "equity",
+      "region": "global",
+      "categories": [
+        "etf"
+      ],
+      "risk_level": 4,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "FundsInitDB_de_de"
+    },
+    {
+      "isin": "IE00B1W6CY02",
+      "name": "Dimensional European Value Fund",
+      "provider": "Dimensional Fund Advisors",
+      "kiid_url": "https://www.dimensional.com/us-en/funds/ie00b1w6cy02/european-value-fund-gbp-acc",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU0161305916",
+      "name": "Schroder International Selection Fund European Value",
+      "provider": "Schroders",
+      "kiid_url": "https://www.fynup.at/f/lu0161305916",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU1797811236",
+      "name": "M&G (Lux) European Strategic Value Fund",
+      "provider": "M&G Investments",
+      "kiid_url": "https://www.fynup.at/f/lu1797811236",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU0143811718",
+      "name": "JPMorgan Funds - Europe Equity Fund",
+      "provider": "JPMorgan Asset Management",
+      "kiid_url": "https://www.fynup.at/f/lu0143811718",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU0157028340",
+      "name": "Capital Group European Core Equity Fund",
+      "provider": "Capital Group",
+      "kiid_url": "https://www.fynup.at/f/lu0157028340",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU0389811539",
+      "name": "Amundi Core MSCI Europe",
+      "provider": "Amundi",
+      "kiid_url": "https://www.fynup.at/f/lu0389811539",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "IE0002639551",
+      "name": "Vanguard European Stock Index Fund",
+      "provider": "Vanguard",
+      "kiid_url": "https://www.fynup.at/f/ie0002639551",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "IE00B1W6CV70",
+      "name": "Dimensional European Value USD Acc",
+      "provider": "Dimensional Fund Advisors",
+      "kiid_url": "https://www.fynup.at/f/ie00b1w6cv70",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "CH0024446681",
+      "name": "Zurich Invest Institutional Funds - ZIF Aktien Europa E1",
+      "provider": "Zurich Invest",
+      "kiid_url": "https://www.fynup.at/f/ch0024446681",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU0389811885",
+      "name": "Amundi Core MSCI Europe AE Acc",
+      "provider": "Amundi",
+      "kiid_url": "https://www.fynup.at/f/lu0389811885",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU0552385210",
+      "name": "Fidelity Funds - Europe Fund",
+      "provider": "Fidelity",
+      "kiid_url": "https://www.fidelity.de/funds/lu0552385210",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU0125978776",
+      "name": "T. Rowe Price European Equity Fund",
+      "provider": "T. Rowe Price",
+      "kiid_url": "https://www.troweprice.com/en-us/investments/mutual-funds/european-equity-fund",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU0253399692",
+      "name": "Franklin Templeton European Growth Fund",
+      "provider": "Franklin Templeton",
+      "kiid_url": "https://www.franklintempleton.com/retail/lu/en/product/lu0125978776",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU0133077099",
+      "name": "Pictet European Megatrend Selection",
+      "provider": "Pictet",
+      "kiid_url": "https://www.pictet.com/de/funds/lu0253399692",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU0048578714",
+      "name": "Robeco European Conservative Equities",
+      "provider": "Robeco",
+      "kiid_url": "https://www.robeco.com/de/de/lu0133077099",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "DE0008474008",
+      "name": "BGF European Fund",
+      "provider": "BlackRock",
+      "kiid_url": "https://www.blackrock.com/lu/individual/en/literature/fact-sheet/blackrock-european-fund-factsheet-en-lu.pdf",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU0170736720",
+      "name": "DWS Invest Europa",
+      "provider": "DWS",
+      "kiid_url": "https://www.dws.com/de-de/privatkunden/unsere-fonds/dws-invest-europa/",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU0238095192",
+      "name": "Allianz European Equity Growth",
+      "provider": "Allianz",
+      "kiid_url": "https://www.allianzgi.com/de-de/retail/funds/lu0170736720",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU0119219324",
+      "name": "UBS (Lux) Equity Fund - European Opportunities",
+      "provider": "UBS",
+      "kiid_url": "https://www.ubs.com/am/de/asset-management/funds/lu0238095192",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU0133077172",
+      "name": "Credit Suisse (Lux) European Focus Fund",
+      "provider": "Credit Suisse",
+      "kiid_url": "https://www.credit-suisse.com/am/de/private-banking/funds/lu0119219324",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU0179539324",
+      "name": "Nordea 1, European Equity Fund",
+      "provider": "Nordea",
+      "kiid_url": "https://www.nordea.com/en/asset-management/funds/lu0133077172",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU0329759853",
+      "name": "BNP Paribas L1 Equity Europe Classic Cap",
+      "provider": "BNP Paribas",
+      "kiid_url": "https://www.bnpparibas-am.com/lu0179539324",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU0110396290",
+      "name": "AB European Growth Portfolio",
+      "provider": "AllianceBernstein",
+      "kiid_url": "https://www.alliancebernstein.com/lu0329759853",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU0133077255",
+      "name": "Janus Henderson Horizon Pan European Equity Fund",
+      "provider": "Janus Henderson",
+      "kiid_url": "https://www.janushenderson.com/lu0110396290",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU0179539407",
+      "name": "Invesco Pan European Equity Fund",
+      "provider": "Invesco",
+      "kiid_url": "https://www.invesco.com/lu0133077255",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU0232303470",
+      "name": "Goldman Sachs European Equity Portfolio",
+      "provider": "Goldman Sachs",
+      "kiid_url": "https://www.goldmansachs.com/am/lu0179539407",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU0119219405",
+      "name": "Morgan Stanley Investment Funds European Equity Fund",
+      "provider": "Morgan Stanley",
+      "kiid_url": "https://www.morganstanley.com/am/lu0232303470",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU0133077332",
+      "name": "Neuberger Berman European Equity Fund",
+      "provider": "Neuberger Berman",
+      "kiid_url": "https://www.neubergerberman.com/lu0119219405",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU0179539580",
+      "name": "Legg Mason WA European Equity Fund",
+      "provider": "Legg Mason",
+      "kiid_url": "https://www.leggmason.com/lu0133077332",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU0232303553",
+      "name": "MFS Meridian Funds - European Value Fund",
+      "provider": "MFS",
+      "kiid_url": "https://www.mfs.com/lu0179539580",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU0179539663",
+      "name": "T. Rowe Price European Stock Fund",
+      "provider": "T. Rowe Price",
+      "kiid_url": "https://www.troweprice.com/en-us/investments/mutual-funds/european-stock-fund",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU0232303636",
+      "name": "J.P. Morgan Funds - European Dynamic Fund",
+      "provider": "J.P. Morgan",
+      "kiid_url": "https://www.jpmorganam.com/lu0232303553",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU0119219588",
+      "name": "Fidelity European Growth Fund",
+      "provider": "Fidelity",
+      "kiid_url": "https://www.fidelity.de/funds/lu0179539663",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "LU0133077415",
+      "name": "BlackRock European Dynamic Fund",
+      "provider": "BlackRock",
+      "kiid_url": "https://www.blackrock.com/lu/individual/en/literature/fact-sheet/blackrock-european-dynamic-fund-factsheet-en-lu.pdf",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "DE000DWS0GR8",
+      "name": "DWS Top Dividende",
+      "provider": "DWS",
+      "kiid_url": "https://www.dws.com/de-de/privatkunden/unsere-fonds/dws-top-dividende/",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "FR0010314504",
+      "name": "Comgest Growth Europe",
+      "provider": "Comgest",
+      "kiid_url": "https://www.comgest.com/lu0119219588",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "DE000A0H08G5",
+      "name": "Flossbach von Storch Multiple Opportunities R",
+      "provider": "Flossbach von Storch",
+      "kiid_url": "https://www.flossbachvonstorch.de/lu0133077415",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Wertorientiert",
+      "source": "aktienfonds_50"
+    },
+    {
+      "isin": "IE00B4K48X80",
+      "name": "iShares Core MSCI Europe UCITS ETF EUR (Acc)",
+      "provider": "iShares",
+      "kiid_url": "https://www.blackrock.com/kiid/literature/kiid/eu-priips-ishares-core-msci-europe-ucits-etf-eur-acc-ie00b4k48x80-cs.pdf",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "etf",
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "LU1437015735",
+      "name": "Amundi MSCI Europe UCITS ETF",
+      "provider": "Amundi",
+      "kiid_url": "https://www.borsaitaliana.it/borsa/etf/scheda/LU1437015735.html?lang=en",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "etf",
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "LU0908500753",
+      "name": "Lyxor Core STOXX Europe 600 ETF",
+      "provider": "Lyxor",
+      "kiid_url": "https://docs.oppl.io/factsheets/LU0908500753_31-05-2023.pdf",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "etf",
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "IE00B4K6B022",
+      "name": "HSBC EURO STOXX 50 UCITS ETF EUR",
+      "provider": "HSBC",
+      "kiid_url": "https://www.blackrock.com/hu/bankok-es-kozvetitok/literature/kiid/eu-priips-ishares-core-euro-stoxx-50-ucits-etf-eur-acc-ie00b53l3w79-hu.pdf",
+      "asset_class": "equity",
+      "region": "eurozone",
+      "categories": [
+        "etf",
+        "eurozone_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "LU0322253906",
+      "name": "Xtrackers MSCI Europe Small Cap UCITS ETF 1C",
+      "provider": "Xtrackers",
+      "kiid_url": "https://etf.dws.com/en/LU0322253906-msci-europe-small-cap-ucits-etf-1c/",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "etf",
+        "small_cap"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "IE00BFNM3D14",
+      "name": "iShares MSCI Europe ESG Screened UCITS ETF EUR",
+      "provider": "iShares",
+      "kiid_url": "https://www.ishares.com/uk/individual/en/literature/kiid/ucits_kiid-ishares-msci-europe-esg-screened-ucits-etf-eur-acc-gb-ie00bfnm3d14-en.pdf",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "etf",
+        "european_equity",
+        "esg"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "LU1681040223",
+      "name": "Amundi STOXX Europe 600 ESG UCITS ETF DR EUR",
+      "provider": "Amundi",
+      "kiid_url": "https://www.cnbc.com/quotes/C6E%5E-FR",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "etf",
+        "european_equity",
+        "esg"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "DE000A0H08Q4",
+      "name": "iShares STOXX Europe 600 Technology UCITS ETF EUR",
+      "provider": "iShares",
+      "kiid_url": "https://www.ishares.com/uk/individual/en/literature/kiid/ucits_kiid-ishares-stoxx-europe-600-technology-ucits-etf-de-eur-dist-gb-de000a0h08q4-en.pdf",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "etf",
+        "technology"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "IE00B53SZB19",
+      "name": "iShares EURO STOXX 50 UCITS ETF (Acc)",
+      "provider": "iShares",
+      "kiid_url": "https://www.ishares.com/uk/individual/en/literature/kiid/kiid-ishares-core-euro-stoxx-50-ucits-etf-eur-acc-ie00b53l3w79-en.pdf",
+      "asset_class": "equity",
+      "region": "eurozone",
+      "categories": [
+        "etf",
+        "eurozone_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "IE00B82QM594",
+      "name": "Vanguard FTSE Europe UCITS ETF",
+      "provider": "Vanguard",
+      "kiid_url": "https://www.vanguardinvestor.co.uk/investments/vanguard-ftse-europe-ucits-etf-gbp/overview",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "etf",
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "IE00B40X6D77",
+      "name": "Invesco STOXX Europe 600 UCITS ETF",
+      "provider": "Invesco",
+      "kiid_url": "https://www.invesco.com/uk/financial-products/etfs/holdings?audienceType=Investor&ticker=SXRU",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "etf",
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "IE00B4KX8M30",
+      "name": "SPDR MSCI Europe UCITS ETF",
+      "provider": "SPDR",
+      "kiid_url": "https://www.ssga.com/gb/en_gb/institutional/etfs/funds/spdr-msci-europe-ucits-etf-mseu",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "etf",
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "LU0522107616",
+      "name": "UBS ETF (LU) MSCI Europe UCITS ETF",
+      "provider": "UBS",
+      "kiid_url": "https://www.ubs.com/am/de/asset-management/etfs/lu/product.html?symbol=MSEU",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "etf",
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "LU1781541179",
+      "name": "Lyxor MSCI Europe UCITS ETF",
+      "provider": "Lyxor",
+      "kiid_url": "https://www.lyxor.com/de-de/etf/etf/msci-europe-ucits-etf-acc-lyxor-msci-europe-ucits-etf-acc-10756098",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "etf",
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "ETFL19",
+      "name": "Deka MSCI Europe UCITS ETF",
+      "provider": "Deka",
+      "kiid_url": "https://www.deka-etf.de/etf/msci-europe-ucits-etf",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "etf",
+        "european_equity",
+        "esg"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "ETFL20",
+      "name": "ComStage MSCI Europe TRN UCITS ETF",
+      "provider": "ComStage",
+      "kiid_url": "https://www.comstage.de/etf/msci-europe-trn-ucits-etf",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "etf",
+        "european_equity",
+        "esg"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "IE00BYX2JV35",
+      "name": "iShares MSCI Europe SRI UCITS ETF",
+      "provider": "iShares",
+      "kiid_url": "https://www.ishares.com/uk/individual/en/literature/kiid/ucits_kiid-ishares-msci-europe-sri-ucits-etf-eur-acc-gb-ie00byx2jv35-en.pdf",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "etf",
+        "european_equity",
+        "esg"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "FR0010756098",
+      "name": "Amundi MSCI Europe SRI UCITS ETF",
+      "provider": "Amundi",
+      "kiid_url": "https://www.amundi.com/amundi/our-funds/etf/msci-europe-sri-ucits-etf",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "etf",
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "IE00BKX55T58",
+      "name": "Xtrackers MSCI Europe ESG UCITS ETF",
+      "provider": "Xtrackers",
+      "kiid_url": "https://etf.dws.com/en/Xtrackers_II_MSCI_Europe_ESG_UCITS_ETF_1C",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "etf",
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "IE00B3VVMM84",
+      "name": "SPDR MSCI Europe Quality Mix UCITS ETF",
+      "provider": "SPDR",
+      "kiid_url": "https://www.ssga.com/gb/en_gb/institutional/etfs/funds/spdr-msci-europe-quality-mix-ucits-etf-qmue",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "etf",
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "IE00B5M4W363",
+      "name": "Invesco MSCI Europe UCITS ETF",
+      "provider": "Invesco",
+      "kiid_url": "https://www.invesco.com/uk/financial-products/etfs/holdings?audienceType=Investor&ticker=MSEU",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "etf",
+        "european_equity",
+        "esg"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "IE00B53QM825",
+      "name": "iShares STOXX Europe 600 UCITS ETF",
+      "provider": "iShares",
+      "kiid_url": "https://www.ishares.com/uk/individual/en/literature/kiid/ucits_kiid-ishares-stoxx-europe-600-ucits-etf-de-eur-dist-gb-de000a0h08q4-en.pdf",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "etf",
+        "european_equity",
+        "esg"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "IE00B53L3W79",
+      "name": "Amundi STOXX Europe 600 UCITS ETF",
+      "provider": "Amundi",
+      "kiid_url": "https://www.amundi.com/amundi/our-funds/etf/stoxx-europe-600-ucits-etf",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "etf",
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "IE00B53L3W87",
+      "name": "Lyxor STOXX Europe 600 UCITS ETF",
+      "provider": "Lyxor",
+      "kiid_url": "https://www.lyxor.com/de-de/etf/etf/stoxx-europe-600-ucits-etf-acc-lyxor-stoxx-europe-600-ucits-etf-acc-10756098",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "etf",
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "IE00B53L3W95",
+      "name": "Vanguard STOXX Europe 600 UCITS ETF",
+      "provider": "Vanguard",
+      "kiid_url": "https://www.vanguardinvestor.co.uk/investments/vanguard-stoxx-europe-600-ucits-etf-gbp/overview",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "etf",
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "IE00B53L3W03",
+      "name": "Deka STOXX Europe 600 UCITS ETF",
+      "provider": "Deka",
+      "kiid_url": "https://www.deka-etf.de/etf/stoxx-europe-600-ucits-etf",
+      "asset_class": "equity",
+      "region": "europe",
+      "categories": [
+        "etf",
+        "european_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "IE00B53L3W11",
+      "name": "ComStage STOXX Europe 600 UCITS ETF",
+      "provider": "ComStage",
+      "kiid_url": "https://www.comstage.de/etf/stoxx-europe-600-ucits-etf",
+      "asset_class": "equity",
+      "region": "eurozone",
+      "categories": [
+        "etf",
+        "eurozone_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "IE00B53L3W29",
+      "name": "iShares STOXX Europe 600 ESG-X UCITS ETF",
+      "provider": "iShares",
+      "kiid_url": "https://www.ishares.com/uk/individual/en/literature/kiid/ucits_kiid-ishares-stoxx-europe-600-esg-x-ucits-etf-eur-acc-gb-ie00b53l3w79-en.pdf",
+      "asset_class": "equity",
+      "region": "eurozone",
+      "categories": [
+        "etf",
+        "eurozone_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "IE00B53L3W37",
+      "name": "Amundi STOXX Europe 600 ESG UCITS ETF",
+      "provider": "Amundi",
+      "kiid_url": "https://www.amundi.com/amundi/our-funds/etf/stoxx-europe-600-esg-ucits-etf",
+      "asset_class": "equity",
+      "region": "eurozone",
+      "categories": [
+        "etf",
+        "eurozone_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "IE00B53L3W45",
+      "name": "Xtrackers STOXX Europe 600 ESG UCITS ETF",
+      "provider": "Xtrackers",
+      "kiid_url": "https://etf.dws.com/en/Xtrackers_II_STOXX_Europe_600_ESG_UCITS_ETF_1C",
+      "asset_class": "equity",
+      "region": "eurozone",
+      "categories": [
+        "etf",
+        "eurozone_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "IE00B53L3W52",
+      "name": "HSBC STOXX Europe 600 UCITS ETF",
+      "provider": "HSBC",
+      "kiid_url": "https://www.hsbc-etf.com/uk/individual/funds/hsbc-stoxx-europe-600-ucits-etf",
+      "asset_class": "equity",
+      "region": "eurozone",
+      "categories": [
+        "etf",
+        "eurozone_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "IE00B53L3W60",
+      "name": "SPDR STOXX Europe 600 UCITS ETF",
+      "provider": "SPDR",
+      "kiid_url": "https://www.ssga.com/gb/en_gb/institutional/etfs/funds/spdr-stoxx-europe-600-ucits-etf-speu",
+      "asset_class": "equity",
+      "region": "eurozone",
+      "categories": [
+        "etf",
+        "eurozone_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "IE00B53L3W78",
+      "name": "Invesco STOXX Europe 600 UCITS ETF",
+      "provider": "Invesco",
+      "kiid_url": "https://www.invesco.com/uk/financial-products/etfs/holdings?audienceType=Investor&ticker=SXRU",
+      "asset_class": "equity",
+      "region": "eurozone",
+      "categories": [
+        "etf",
+        "eurozone_equity",
+        "esg"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "IE00B53L3W86",
+      "name": "iShares EURO STOXX UCITS ETF",
+      "provider": "iShares",
+      "kiid_url": "https://www.ishares.com/uk/individual/en/literature/kiid/kiid-ishares-euro-stoxx-50-ucits-etf-eur-acc-ie00b53l3w79-en.pdf",
+      "asset_class": "equity",
+      "region": "eurozone",
+      "categories": [
+        "etf",
+        "eurozone_equity",
+        "esg"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "IE00B53L3W94",
+      "name": "Amundi EURO STOXX 50 UCITS ETF",
+      "provider": "Amundi",
+      "kiid_url": "https://www.amundi.com/amundi/our-funds/etf/euro-stoxx-50-ucits-etf",
+      "asset_class": "equity",
+      "region": "eurozone",
+      "categories": [
+        "etf",
+        "eurozone_equity",
+        "esg"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "IE00B53L3W02",
+      "name": "Lyxor EURO STOXX 50 UCITS ETF",
+      "provider": "Lyxor",
+      "kiid_url": "https://www.lyxor.com/de-de/etf/etf/euro-stoxx-50-ucits-etf-acc-lyxor-euro-stoxx-50-ucits-etf-acc-10756098",
+      "asset_class": "equity",
+      "region": "eurozone",
+      "categories": [
+        "etf",
+        "eurozone_equity",
+        "esg"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "IE00B53L3W10",
+      "name": "Vanguard EURO STOXX 50 UCITS ETF",
+      "provider": "Vanguard",
+      "kiid_url": "https://www.vanguardinvestor.co.uk/investments/vanguard-euro-stoxx-50-ucits-etf-gbp/overview",
+      "asset_class": "equity",
+      "region": "eurozone",
+      "categories": [
+        "etf",
+        "eurozone_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "IE00B53L3W28",
+      "name": "Deka EURO STOXX 50 UCITS ETF",
+      "provider": "Deka",
+      "kiid_url": "https://www.deka-etf.de/etf/euro-stoxx-50-ucits-etf",
+      "asset_class": "equity",
+      "region": "eurozone",
+      "categories": [
+        "etf",
+        "eurozone_equity"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Thesaurierend, breit gestreut",
+      "source": "etfs_50"
+    },
+    {
+      "isin": "DE000A0DNG73",
+      "name": "Private Banking Struktur",
+      "provider": "Private Banking",
+      "kiid_url": "https://boersen.manager-magazin.de/kursinformation/DE000A0DNG73/",
+      "asset_class": "mixed",
+      "region": "europe",
+      "categories": [
+        "balanced",
+        "european_mixed"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "mischfonds_50"
+    },
+    {
+      "isin": "LU0284394151",
+      "name": "DNCA Invest - Eurose I",
+      "provider": "DNCA Invest",
+      "kiid_url": "https://www.finect.com/fondos-inversion/LU1234712880-Dnca_invest_eurose_n_eur",
+      "asset_class": "mixed",
+      "region": "europe",
+      "categories": [
+        "balanced",
+        "european_mixed"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "mischfonds_50"
+    },
+    {
+      "isin": "LU0140351767",
+      "name": "HAIG Balance First Euro Invest",
+      "provider": "HAIG",
+      "kiid_url": "https://www.hauck-aufhaeuser.com/en/disclaimer-2/",
+      "asset_class": "mixed",
+      "region": "europe",
+      "categories": [
+        "balanced",
+        "european_mixed"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "mischfonds_50"
+    },
+    {
+      "isin": "DE0009786202",
+      "name": "Deka-Multi Asset Europa Fokus AS",
+      "provider": "Deka",
+      "kiid_url": "https://www.fynup.at/f/de0009786202",
+      "asset_class": "mixed",
+      "region": "europe",
+      "categories": [
+        "balanced",
+        "european_mixed"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "mischfonds_50"
+    },
+    {
+      "isin": "LU0179866602",
+      "name": "AXA WF Optimal Income F Distribution gr EUR pf",
+      "provider": "AXA",
+      "kiid_url": "https://www.fynup.at/f/lu0179866602",
+      "asset_class": "mixed",
+      "region": "europe",
+      "categories": [
+        "balanced",
+        "european_mixed"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "mischfonds_50"
+    },
+    {
+      "isin": "LU0179866867",
+      "name": "AXA WF Optimal Income F Capitalisation EUR pf",
+      "provider": "AXA",
+      "kiid_url": "https://www.fynup.at/f/lu0179866867",
+      "asset_class": "mixed",
+      "region": "europe",
+      "categories": [
+        "balanced",
+        "european_mixed"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "mischfonds_50"
+    },
+    {
+      "isin": "LU0243957668",
+      "name": "Invesco Pan European High Income Fund C accumulation - EUR",
+      "provider": "Invesco",
+      "kiid_url": "https://www.fynup.at/f/lu0243957668",
+      "asset_class": "mixed",
+      "region": "europe",
+      "categories": [
+        "balanced",
+        "european_mixed"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "mischfonds_50"
+    },
+    {
+      "isin": "LU0184635471",
+      "name": "AXA WF Optimal Income I Capitalisation EUR pf",
+      "provider": "AXA",
+      "kiid_url": "https://www.fynup.at/f/lu0184635471",
+      "asset_class": "mixed",
+      "region": "europe",
+      "categories": [
+        "balanced",
+        "european_mixed"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "mischfonds_50"
+    },
+    {
+      "isin": "LU2209017347",
+      "name": "UBS (Lux) Key Selection SICAV - European Growth and Income (EUR) , Anteilsklasse (USD hedged) QL-acc, USD",
+      "provider": "UBS",
+      "kiid_url": "https://www.fynup.at/f/lu2209017347",
+      "asset_class": "mixed",
+      "region": "europe",
+      "categories": [
+        "balanced",
+        "european_mixed"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "mischfonds_50"
+    },
+    {
+      "isin": "LU2209017263",
+      "name": "UBS (Lux) Key Selection SICAV - European Growth and Income (EUR) , Anteilsklasse (USD hedged) QL-8%-mdist, USD",
+      "provider": "UBS",
+      "kiid_url": "https://www.fynup.at/f/lu2209017263",
+      "asset_class": "mixed",
+      "region": "europe",
+      "categories": [
+        "balanced",
+        "european_mixed"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "mischfonds_50"
+    },
+    {
+      "isin": "DE0005314116",
+      "name": "UniStrategie Ausgewogen",
+      "provider": "Union Investment",
+      "kiid_url": "https://www.fynup.at/f/de0005314116",
+      "asset_class": "mixed",
+      "region": "europe",
+      "categories": [
+        "balanced",
+        "european_mixed"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "mischfonds_50"
+    },
+    {
+      "isin": "LU0794790716",
+      "name": "Invesco Pan European High Income Fund A Annual Fonds",
+      "provider": "Invesco",
+      "kiid_url": "https://www.fynup.at/f/lu0794790716",
+      "asset_class": "mixed",
+      "region": "europe",
+      "categories": [
+        "balanced",
+        "european_mixed"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "mischfonds_50"
+    },
+    {
+      "isin": "LU0989117667",
+      "name": "Deutsche Multi Opportunities LD",
+      "provider": "Deutsche AM",
+      "kiid_url": "https://www.fynup.at/f/lu0989117667",
+      "asset_class": "mixed",
+      "region": "europe",
+      "categories": [
+        "balanced",
+        "european_mixed"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "mischfonds_50"
+    },
+    {
+      "isin": "DE0009848077",
+      "name": "Deutsche AM Dynamic Opportunities FC",
+      "provider": "Deutsche AM",
+      "kiid_url": "https://www.fynup.at/f/de0009848077",
+      "asset_class": "mixed",
+      "region": "europe",
+      "categories": [
+        "balanced",
+        "european_mixed"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "mischfonds_50"
+    },
+    {
+      "isin": "LU1744628287",
+      "name": "Carmignac Portfolio Patrimoine Europe A EUR Acc",
+      "provider": "Carmignac",
+      "kiid_url": "https://www.fynup.at/f/lu1744628287",
+      "asset_class": "mixed",
+      "region": "europe",
+      "categories": [
+        "balanced",
+        "european_mixed"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "mischfonds_50"
+    },
+    {
+      "isin": "IE00BYVXS345",
+      "name": "Mediolanum European Coupon Strategy Collection L Class B",
+      "provider": "Mediolanum",
+      "kiid_url": "https://www.fynup.at/f/ie00byvxs345",
+      "asset_class": "mixed",
+      "region": "europe",
+      "categories": [
+        "balanced",
+        "european_mixed"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "mischfonds_50"
+    },
+    {
+      "isin": "LU0179540073",
+      "name": "RobecoSAM Sustainable European Stars Equities",
+      "provider": "RobecoSAM",
+      "kiid_url": "https://www.fynup.at/f/lu0179540073",
+      "asset_class": "mixed",
+      "region": "europe",
+      "categories": [
+        "balanced",
+        "european_mixed"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "mischfonds_50"
+    },
+    {
+      "isin": "LU0119219661",
+      "name": "UBS (Lux) Equity Fund - European Growth",
+      "provider": "UBS",
+      "kiid_url": "https://www.fynup.at/f/lu0119219661",
+      "asset_class": "mixed",
+      "region": "europe",
+      "categories": [
+        "balanced",
+        "european_mixed"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "mischfonds_50"
+    },
+    {
+      "isin": "LU0179540156",
+      "name": "BGF European Special Situations Fund",
+      "provider": "BlackRock",
+      "kiid_url": "https://www.fynup.at/f/lu0179540156",
+      "asset_class": "mixed",
+      "region": "europe",
+      "categories": [
+        "balanced",
+        "european_mixed"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "mischfonds_50"
+    },
+    {
+      "isin": "LU0133077598",
+      "name": "JPMorgan Funds - Europe Dynamic Ex UK",
+      "provider": "JPMorgan",
+      "kiid_url": "https://www.fynup.at/f/lu0133077598",
+      "asset_class": "mixed",
+      "region": "europe",
+      "categories": [
+        "balanced",
+        "european_mixed"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "mischfonds_50"
+    },
+    {
+      "isin": "LU0179540230",
+      "name": "Schroder ISF European Equity Absolute Target",
+      "provider": "Schroders",
+      "kiid_url": "https://www.fynup.at/f/lu0179540230",
+      "asset_class": "mixed",
+      "region": "europe",
+      "categories": [
+        "balanced",
+        "european_mixed"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "mischfonds_50"
+    },
+    {
+      "isin": "LU0119219747",
+      "name": "Threadneedle European Select Fund",
+      "provider": "Threadneedle",
+      "kiid_url": "https://www.fynup.at/f/lu0119219747",
+      "asset_class": "mixed",
+      "region": "europe",
+      "categories": [
+        "balanced",
+        "european_mixed"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "mischfonds_50"
+    },
+    {
+      "isin": "LU0133077671",
+      "name": "Aviva Investors European Equity Fund",
+      "provider": "Aviva Investors",
+      "kiid_url": "https://www.fynup.at/f/lu0133077671",
+      "asset_class": "mixed",
+      "region": "europe",
+      "categories": [
+        "balanced",
+        "european_mixed"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "mischfonds_50"
+    },
+    {
+      "isin": "LU0179540313",
+      "name": "AXA WF Framlington Europe",
+      "provider": "AXA",
+      "kiid_url": "https://www.fynup.at/f/lu0179540313",
+      "asset_class": "mixed",
+      "region": "europe",
+      "categories": [
+        "balanced",
+        "european_mixed"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": null,
+      "source": "mischfonds_50"
+    },
+    {
+      "isin": "DE000A0Q4RZ9",
+      "name": "iShares Geldmarkt-ETF",
+      "provider": "iShares",
+      "kiid_url": "https://www.ishares.com/uk/individual/en/literature/kiid/kiid-ishares-core-msci-world-ucits-etf-gb-ie00b4l5y983-en.pdf",
+      "asset_class": "bond",
+      "region": "europe",
+      "categories": [
+        "money_market"
+      ],
+      "risk_level": 2,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Konservativ",
+      "source": "rentenfonds_50"
+    },
+    {
+      "isin": "DE000ETFL227",
+      "name": "Deka Geldmarkt-ETF",
+      "provider": "Deka",
+      "kiid_url": "https://www.deka-etf.de/documents/kiid_22_20190507_de.pdf",
+      "asset_class": "bond",
+      "region": "europe",
+      "categories": [
+        "money_market"
+      ],
+      "risk_level": 2,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Konservativ",
+      "source": "rentenfonds_50"
+    },
+    {
+      "isin": "FR0010510800",
+      "name": "Amundi ETF",
+      "provider": "Amundi",
+      "kiid_url": "https://www.amundietf.co.uk/pdfDocuments/kiid/IE0003XJA0J9/ENG/GBR/20260218",
+      "asset_class": "bond",
+      "region": "europe",
+      "categories": [
+        "money_market"
+      ],
+      "risk_level": 2,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Konservativ",
+      "source": "rentenfonds_50"
+    },
+    {
+      "isin": "LU0290358497",
+      "name": "Xtrackers ETF",
+      "provider": "Xtrackers",
+      "kiid_url": "https://etf.dws.com/en-lu/about-us/press-releases/xtrackers-by-dws-creates-esg-0-5-year-usd-corporate-bond-etfF/",
+      "asset_class": "bond",
+      "region": "europe",
+      "categories": [
+        "money_market"
+      ],
+      "risk_level": 2,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Konservativ",
+      "source": "rentenfonds_50"
+    },
+    {
+      "isin": "LU1971906802",
+      "name": "SCOR Sustainable Euro High Yield",
+      "provider": "SCOR",
+      "kiid_url": "https://www.scor-ip.com/en/sfdrarticle10/esgeurohighyield",
+      "asset_class": "bond",
+      "region": "europe",
+      "categories": [
+        "high_yield_bonds"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Nachhaltig",
+      "source": "rentenfonds_50"
+    },
+    {
+      "isin": "LU1109901773",
+      "name": "Lazard Euro Corp High Yield PVD",
+      "provider": "Lazard",
+      "kiid_url": "https://www.lazardassetmanagement.com/li/en_gb/investment-solutions/how-to-invest/16/3803",
+      "asset_class": "bond",
+      "region": "europe",
+      "categories": [
+        "high_yield_bonds"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Hochverzinslich",
+      "source": "rentenfonds_50"
+    },
+    {
+      "isin": "DE0008480666",
+      "name": "Nordea 1 – Flexible Fixed Income BP EUR",
+      "provider": "Nordea",
+      "kiid_url": "https://www.danskeinvest.lu/w/show_funds.product?p_nId=1181&p_nFundgroup=34&p_nFund=3740",
+      "asset_class": "bond",
+      "region": "europe",
+      "categories": [
+        "flexible_bonds"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Flexibel",
+      "source": "rentenfonds_50"
+    },
+    {
+      "isin": "DE000DWS3BQ5",
+      "name": "Deka Rentenfonds RheinEdition",
+      "provider": "Deka",
+      "kiid_url": "https://www.fynup.at/f/de0008480666",
+      "asset_class": "bond",
+      "region": "europe",
+      "categories": [
+        "european_bonds"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Mittelrisikant",
+      "source": "rentenfonds_50"
+    },
+    {
+      "isin": "LU2190101332",
+      "name": "DWS Eurozone Bonds Flexible TFD",
+      "provider": "DWS",
+      "kiid_url": "https://www.fynup.at/f/de000dws3bq5",
+      "asset_class": "bond",
+      "region": "europe",
+      "categories": [
+        "european_bonds"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Mittelrisikant",
+      "source": "rentenfonds_50"
+    },
+    {
+      "isin": "IE00BYSX5L43",
+      "name": "Allianz Advanced Fixed Income Euro WT (EUR)",
+      "provider": "Allianz",
+      "kiid_url": "https://www.fynup.at/f/lu2190101332",
+      "asset_class": "bond",
+      "region": "europe",
+      "categories": [
+        "european_bonds"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Mittelrisikant",
+      "source": "rentenfonds_50"
+    },
+    {
+      "isin": "DE000DWS1DY8",
+      "name": "Goyer & Göppel Zins-Invest alpha",
+      "provider": "Goyer & Göppel",
+      "kiid_url": "https://www.fynup.at/f/lu1971906802",
+      "asset_class": "bond",
+      "region": "europe",
+      "categories": [
+        "european_bonds"
+      ],
+      "risk_level": 3,
+      "yearly_fee": null,
+      "esg_article_8": false,
+      "esg_article_9": false,
+      "notes": "Mittelrisikant",
+      "source": "rentenfonds_50"
     }
   ],
   "metadata": {
-    "version": "1.0",
-    "last_updated": "2026-03-03",
-    "total_funds": 5,
-    "data_source": "ISIN database"
+    "version": "2.0",
+    "last_updated": "2026-03-12",
+    "total_funds": 197,
+    "data_source": "Curated + CSV import: FundsInitDB_de_de, aktienfonds_50, etfs_50, mischfonds_50, rentenfonds_50"
   }
 }

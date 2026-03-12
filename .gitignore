@@ -63,6 +63,7 @@ logs/
 tmp/
 temp/
 *.tmp
+.~*
 
 # Docker
 docker-compose.override.yml
