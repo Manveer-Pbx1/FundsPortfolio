@@ -160,7 +160,7 @@ def parse_fundsinitdb(filepath: str, source_name: str) -> List[Dict]:
             asset_class, categories, region = map_fondstyp(kategorie)
             risk_level = map_risk_level(risk_raw)
 
-            funds.append({
+            fund = {
                 "isin":          isin,
                 "name":          name,
                 "provider":      _derive_provider(name),
@@ -174,7 +174,8 @@ def parse_fundsinitdb(filepath: str, source_name: str) -> List[Dict]:
                 "esg_article_9": is_esg_checked(art9),
                 "notes":         None,
                 "source":        source_name,
-            })
+            }
+            funds.append(enrich_fund(fund))
     return funds
 
 
@@ -203,7 +204,7 @@ def parse_generic_csv(filepath: str, source_name: str) -> List[Dict]:
             asset_class, categories, region = map_fondstyp(fondstyp)
             risk_level = map_risk_level(risiko)
 
-            funds.append({
+            fund = {
                 "isin":          isin,
                 "name":          name,
                 "provider":      provider or _derive_provider(name),
@@ -217,7 +218,8 @@ def parse_generic_csv(filepath: str, source_name: str) -> List[Dict]:
                 "esg_article_9": False,
                 "notes":         notes,
                 "source":        source_name,
-            })
+            }
+            funds.append(enrich_fund(fund))
     return funds
 
 
@@ -248,6 +250,78 @@ def _derive_provider(name: str) -> str:
 
 
 # ---------------------------------------------------------------------------
+# Derived fields for OptimizerPseudoCode compatibility
+# ---------------------------------------------------------------------------
+
+def derive_is_etf(categories: List[str]) -> bool:
+    """True when 'etf' is listed in the fund's categories."""
+    return "etf" in [c.lower() for c in categories]
+
+
+def derive_esg_label(esg_article_8: bool, esg_article_9: bool, categories: List[str]) -> str:
+    """
+    Map SFDR disclosure flags + ESG category tag to the optimizer's label set:
+      SFDR_ARTICLE_9 > SFDR_ARTICLE_8 > MEDIUM (esg category) > LOW
+    """
+    if esg_article_9:
+        return "SFDR_ARTICLE_9"
+    if esg_article_8:
+        return "SFDR_ARTICLE_8"
+    if "esg" in [c.lower() for c in categories]:
+        return "MEDIUM"
+    return "LOW"
+
+
+# Category / notes keywords → optimizer Theme
+_THEME_KEYWORDS: List[Tuple[List[str], str]] = [
+    (["technology", "tech", "digitali", "digital", "ki", "artificial", "innovation"],    "TECHNOLOGY"),
+    (["health", "gesundheit", "biotech", "pharma", "medical", "life science"],             "HEALTHCARE"),
+    (["sustainability", "climate", "clean", "green", "water", "warming",
+      "nachhaltig", "umwelt", "esg", "impact", "responsible", "environmental"],           "SUSTAINABILITY"),
+]
+
+
+def derive_theme(categories: List[str], notes: Optional[str], name: str) -> str:
+    """
+    Infer the optimizer Theme from category tags, notes, and fund name.
+    First match wins; falls back to NONE.
+    """
+    haystack = " ".join(categories + [notes or "", name]).lower()
+    for keywords, theme in _THEME_KEYWORDS:
+        if any(kw in haystack for kw in keywords):
+            return theme
+    return "NONE"
+
+
+# Static SRRI estimate from the fund's risk_level (1-5 scale → SRRI 2-6)
+_RISK_TO_SRRI: Dict[int, int] = {1: 2, 2: 3, 3: 4, 4: 5, 5: 6}
+
+
+def derive_srri(risk_level: int) -> int:
+    """Return a static SRRI estimate (1-7) from the stored risk_level."""
+    return _RISK_TO_SRRI.get(risk_level, 4)
+
+
+def enrich_fund(fund: Dict) -> Dict:
+    """
+    Add/overwrite the four derived fields on a fund dict in-place.
+    Safe to call on both freshly-parsed and existing curated entries.
+    """
+    cats      = fund.get("categories", [])
+    art8      = fund.get("esg_article_8", False)
+    art9      = fund.get("esg_article_9", False)
+    notes     = fund.get("notes")
+    name      = fund.get("name", "")
+    risk_lvl  = fund.get("risk_level", 3)
+
+    fund["is_etf"]    = derive_is_etf(cats)
+    fund["esg_label"] = derive_esg_label(art8, art9, cats)
+    fund["theme"]     = derive_theme(cats, notes, name)
+    fund["srri"]      = derive_srri(risk_lvl)
+    return fund
+
+
+# ---------------------------------------------------------------------------
 # Merge: existing DB first (curated wins), then CSV rows
 # ---------------------------------------------------------------------------
 def merge_funds(existing: List[Dict], csv_batches: List[Tuple[str, List[Dict]]]) -> Tuple[List[Dict], Dict]:
@@ -255,12 +329,12 @@ def merge_funds(existing: List[Dict], csv_batches: List[Tuple[str, List[Dict]]])
     result: List[Dict] = []
     skipped: Dict[str, List[str]] = {}  # source → list of skipped ISINs
 
-    # 1. Lock in existing curated entries
+    # 1. Lock in existing curated entries (enrich with derived fields if missing)
     for fund in existing:
         isin = fund.get("isin", "").upper()
         if isin and isin not in seen_isins:
             seen_isins[isin] = "curated"
-            result.append(fund)
+            result.append(enrich_fund(fund))
 
     # 2. Add CSV imports, skipping duplicates
     for source_name, funds in csv_batches:

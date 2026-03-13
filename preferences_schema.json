@@ -1,6 +1,6 @@
 {
   "questionnaire": {
-    "version": "1.0",
+    "version": "2.0",
     "language": "en",
     "sections": [
       {
@@ -62,27 +62,27 @@
         "options": [
           {
             "id": "micro",
-            "label": "£0 to £150",
+            "label": "€0 to €150",
             "value": "0_150",
-            "currency": "GBP"
+            "currency": "EUR"
           },
           {
             "id": "modest",
-            "label": "£150 to £300",
+            "label": "€150 to €300",
             "value": "150_300",
-            "currency": "GBP"
+            "currency": "EUR"
           },
           {
             "id": "moderate",
-            "label": "£300 to £500",
+            "label": "€300 to €500",
             "value": "300_500",
-            "currency": "GBP"
+            "currency": "EUR"
           },
           {
             "id": "substantial",
-            "label": "Over £500",
+            "label": "Over €500",
             "value": "500_plus",
-            "currency": "GBP"
+            "currency": "EUR"
           },
           {
             "id": "no_answer",
@@ -147,25 +147,29 @@
             "id": "conservative",
             "label": "Security matters most – I want steady, predictable growth",
             "value": "conservative",
-            "risk_profile": 1
+            "risk_profile": 1,
+            "optimizer_profile": "DEFENSIVE"
           },
           {
             "id": "moderate_low",
             "label": "I value security, but I'm also open to modest growth opportunities",
             "value": "moderate_low",
-            "risk_profile": 2
+            "risk_profile": 2,
+            "optimizer_profile": "DEFENSIVE"
           },
           {
             "id": "moderate",
             "label": "I can accept some fluctuations for better returns, but I'd like some protection of my contributions",
             "value": "moderate",
-            "risk_profile": 3
+            "risk_profile": 3,
+            "optimizer_profile": "BALANCED"
           },
           {
             "id": "aggressive",
             "label": "I'm comfortable taking on risk for better growth prospects, and I accept potential losses",
             "value": "aggressive",
-            "risk_profile": 4
+            "risk_profile": 4,
+            "optimizer_profile": "OPPORTUNITY"
           }
         ]
       },
@@ -188,6 +192,129 @@
             "loss_tolerance_score": 4
           }
         ]
+      },
+      {
+        "id": "esg_preference",
+        "name": "How important is sustainability to you?",
+        "description": "ESG stands for Environmental, Social & Governance – it measures how responsibly a company operates.",
+        "type": "single_select",
+        "required": true,
+        "options": [
+          {
+            "id": "no_esg_requirement",
+            "label": "It's not a priority – focus on performance",
+            "value": "no_requirement",
+            "esg_requirement": "NONE",
+            "esg_level": null
+          },
+          {
+            "id": "esg_basic",
+            "label": "I'd like some sustainability standards (Article 8 funds and above)",
+            "value": "esg_basic",
+            "esg_requirement": "REQUIRED",
+            "esg_level": "BASIC"
+          },
+          {
+            "id": "esg_enhanced",
+            "label": "Sustainability is very important to me (Article 9 / high-impact funds only)",
+            "value": "esg_enhanced",
+            "esg_requirement": "REQUIRED",
+            "esg_level": "ENHANCED"
+          }
+        ]
+      },
+      {
+        "id": "etf_preference",
+        "name": "Do you have a preference for ETFs (index-tracking funds)?",
+        "description": "ETFs are typically lower-cost and transparent. Actively managed funds aim to beat the market but charge higher fees.",
+        "type": "single_select",
+        "required": true,
+        "options": [
+          {
+            "id": "no_etf_preference",
+            "label": "No preference – include all fund types",
+            "value": "no_preference",
+            "etf_preference": "NONE"
+          },
+          {
+            "id": "prefer_etf",
+            "label": "I'd prefer ETFs where possible",
+            "value": "prefer_etf",
+            "etf_preference": "PREFER_ETF"
+          },
+          {
+            "id": "etf_only",
+            "label": "ETFs only – I want strictly index funds",
+            "value": "etf_only",
+            "etf_preference": "ETF_ONLY"
+          }
+        ]
+      },
+      {
+        "id": "preferred_regions",
+        "name": "Which regions would you like to invest in?",
+        "description": "Select all that interest you. We'll use this to prioritize regional exposure while keeping the portfolio diversified.",
+        "type": "multi_select",
+        "required": false,
+        "options": [
+          {
+            "id": "region_global",
+            "label": "Global – spread across all major markets",
+            "value": "global",
+            "optimizer_region": "GLOBAL"
+          },
+          {
+            "id": "region_europe",
+            "label": "Europe – focus on European markets",
+            "value": "europe",
+            "optimizer_region": "EUROPE"
+          },
+          {
+            "id": "region_north_america",
+            "label": "North America – US and Canadian markets",
+            "value": "north_america",
+            "optimizer_region": "NORTH_AMERICA"
+          },
+          {
+            "id": "region_emerging",
+            "label": "Emerging Markets – high-growth developing economies",
+            "value": "emerging_markets",
+            "optimizer_region": "EMERGING_MARKETS"
+          }
+        ]
+      },
+      {
+        "id": "preferred_themes",
+        "name": "Are there any investment themes you're excited about?",
+        "description": "Thematic funds focus on specific trends or sectors. These are satellite positions – they won't dominate your portfolio.",
+        "type": "multi_select",
+        "required": false,
+        "options": [
+          {
+            "id": "theme_none",
+            "label": "No specific theme – just a well-diversified portfolio",
+            "value": "none",
+            "optimizer_theme": "NONE"
+          },
+          {
+            "id": "theme_sustainability",
+            "label": "Sustainability & Climate – clean energy, environmental protection",
+            "value": "sustainability",
+            "optimizer_theme": "SUSTAINABILITY"
+          },
+          {
+            "id": "theme_technology",
+            "label": "Technology & Innovation – AI, semiconductors, digitalisation",
+            "value": "technology",
+            "optimizer_theme": "TECHNOLOGY"
+          },
+          {
+            "id": "theme_healthcare",
+            "label": "Healthcare & Life Sciences – biotech, medical devices, pharma",
+            "value": "healthcare",
+            "optimizer_theme": "HEALTHCARE"
+          }
+        ]
       }
     ]
   },
@@ -204,10 +331,24 @@
       ],
       "investment_knowledge": "string (value from options)",
       "risk_approach": "string (value from options)",
-      "loss_tolerance": "string (value from options)"
+      "loss_tolerance": "string (value from options)",
+      "esg_preference": "string (value from options: no_requirement | esg_basic | esg_enhanced)",
+      "etf_preference": "string (value from options: no_preference | prefer_etf | etf_only)",
+      "preferred_regions": [
+        "array of strings (values from options: global | europe | north_america | emerging_markets)"
+      ],
+      "preferred_themes": [
+        "array of strings (values from options: none | sustainability | technology | healthcare)"
+      ]
     },
     "calculated_metrics": {
       "risk_profile": "integer (1-4)",
+      "optimizer_profile": "string (DEFENSIVE | BALANCED | OPPORTUNITY)",
+      "esg_requirement": "string (NONE | REQUIRED)",
+      "esg_level": "string (null | BASIC | ENHANCED)",
+      "etf_preference": "string (NONE | PREFER_ETF | ETF_ONLY)",
+      "preferred_regions": ["array of optimizer Region values"],
+      "preferred_themes": ["array of optimizer Theme values"],
       "suitable_fund_categories": [
         "array of recommended fund types"
       ],

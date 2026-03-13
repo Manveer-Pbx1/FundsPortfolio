@@ -134,7 +134,9 @@ class TestQuestionnaireLoader:
             'monthly_savings': '300_500',
             'investment_knowledge': 'experienced',
             'risk_approach': 'moderate',
-            'loss_tolerance': 'high_loss_tolerance'
+            'loss_tolerance': 'high_loss_tolerance',
+            'esg_preference': 'no_requirement',
+            'etf_preference': 'no_preference'
         }
         
         is_valid, errors = ql.validate_answers(valid_answers)
