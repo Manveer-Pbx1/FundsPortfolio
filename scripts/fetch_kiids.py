@@ -10,17 +10,27 @@ Usage:
 import argparse
 import json
 import logging
+import re
 import requests
 import time
 from datetime import datetime
 from pathlib import Path
 from typing import List, Dict, Tuple
+from urllib.parse import urljoin
 
 # Configure logging
+log_handlers = [logging.StreamHandler()]
+log_dir = Path("logs")
+try:
+    log_dir.mkdir(parents=True, exist_ok=True)
+    log_handlers.insert(0, logging.FileHandler(log_dir / "kiid_retriever.log"))
+except OSError:
+    pass
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
-    handlers=[logging.FileHandler("logs/kiid_retriever.log"), logging.StreamHandler()],
+    handlers=log_handlers,
 )
 logger = logging.getLogger(__name__)
 
@@ -41,6 +51,61 @@ class KIIDRetriever:
             {"User-Agent": "FundsPortfolio/1.0 (KIID Retriever)"}
         )
 
+    def _looks_like_pdf(self, resp: requests.Response) -> bool:
+        content_type = (resp.headers.get("Content-Type") or "").lower()
+        if "pdf" in content_type:
+            return True
+        return resp.content[:4] == b"%PDF"
+
+    def _extract_pdf_url(self, html: str, base_url: str) -> str | None:
+        if not html:
+            return None
+
+        candidates = []
+        for match in re.finditer(
+            r'href=["\']([^"\']+\.pdf[^"\']*)["\']', html, flags=re.IGNORECASE
+        ):
+            candidates.append(match.group(1))
+
+        for match in re.finditer(
+            r"(https?://[^\s\"']+\.pdf[^\s\"']*)", html, flags=re.IGNORECASE
+        ):
+            candidates.append(match.group(1))
+
+        if not candidates:
+            return None
+
+        preferred = None
+        for keyword in ("kiid", "kid"):
+            for candidate in candidates:
+                if keyword in candidate.lower():
+                    preferred = candidate
+                    break
+            if preferred:
+                break
+
+        return urljoin(base_url, preferred or candidates[0])
+
+    def _resolve_pdf_url(self, url: str) -> str | None:
+        if not url:
+            return None
+
+        if url.lower().endswith(".pdf"):
+            return url
+
+        try:
+            resp = self.session.get(url, timeout=self.timeout)
+        except requests.RequestException:
+            return None
+
+        if resp.status_code != 200:
+            return None
+
+        if self._looks_like_pdf(resp):
+            return resp.url
+
+        return self._extract_pdf_url(resp.text or "", resp.url)
+
     def get_kiid_url_ishares(self, isin: str) -> Tuple[str, str]:
         """
         Try to retrieve KIID URL via iShares UK search redirect (302)
@@ -55,12 +120,17 @@ class KIIDRetriever:
             if resp.status_code in (301, 302):
                 location = resp.headers.get("Location")
                 if location:
-                    return location, "success"
-                else:
-                    return None, "redirect_failed"
+                    resolved = self._resolve_pdf_url(location)
+                    if resolved:
+                        return resolved, "success"
+                return None, "redirect_failed"
             elif resp.status_code == 200:
                 # Sometimes page loads directly
-                # Could parse HTML here if needed
+                if self._looks_like_pdf(resp):
+                    return resp.url, "success"
+                resolved = self._extract_pdf_url(resp.text or "", resp.url)
+                if resolved:
+                    return resolved, "success"
                 return None, "redirect_failed"
             else:
                 logger.warning(f"{isin}: Unexpected status {resp.status_code}")
@@ -82,7 +152,16 @@ class KIIDRetriever:
             if resp.status_code in (301, 302):
                 location = resp.headers.get("Location")
                 if location:
-                    return location, "success"
+                    resolved = self._resolve_pdf_url(location)
+                    if resolved:
+                        return resolved, "success"
+                return None, "not_found"
+            if resp.status_code == 200:
+                if self._looks_like_pdf(resp):
+                    return resp.url, "success"
+                resolved = self._extract_pdf_url(resp.text or "", resp.url)
+                if resolved:
+                    return resolved, "success"
             return None, "not_found"
         except Exception as e:
             logger.error(f"{isin} (Vanguard): {e}")
@@ -150,8 +229,9 @@ def load_isins(filepath: str) -> List[str]:
     isins = []
     with open(filepath, "r") as f:
         for line in f:
-            isin = line.strip()
-            if isin and not isin.startswith("#"):
+            raw = line.split("#", 1)[0]
+            isin = raw.strip()
+            if isin:
                 isins.append(isin.upper())
     return isins
 
