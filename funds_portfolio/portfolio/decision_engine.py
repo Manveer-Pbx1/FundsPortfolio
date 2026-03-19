@@ -601,4 +601,6 @@ class DecisionEngine:
             parts.append("Thematic preferences considered.")
         if trace.get("used_fallback_risk"):
             parts.append("Risk profile fallback applied.")
+        if trace.get("relaxations"):
+            parts.append("Risk filters were relaxed to ensure enough eligible funds.")
         return " ".join(parts)

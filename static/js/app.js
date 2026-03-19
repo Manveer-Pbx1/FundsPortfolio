@@ -252,6 +252,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 pill.textContent = `${f.name}: ${f.before}→${f.after}`;
                 decisionFilters.appendChild(pill);
             });
+
+            const relaxations = portfolio.decision_trace?.relaxations || [];
+            const relaxationLabels = {
+                risk_band_relaxation: 'risk band relaxed',
+                final_fund_floor: 'risk filter dropped'
+            };
+            relaxations.forEach((r) => {
+                const pill = document.createElement('span');
+                pill.className = 'decision-filter';
+                const label = relaxationLabels[r.name] || r.name;
+                pill.textContent = `relaxation: ${label} ${r.before}→${r.after}`;
+                decisionFilters.appendChild(pill);
+            });
         }
 
         // Add transparency warning if default fallback was used
